@@ -15,7 +15,7 @@ linear_models   : LinearRegression (OLS), Ridge, Lasso,
 decomposition   : PCA
 neighbors       : KNNRegressor, KNNClassifier
 neural_network  : NeuralNetwork
-metrics         : r2, rmse, mae, mape (regression)
+metrics         : r2, adjusted_r2, rmse, mae, mape (regression)
                   accuracy, precision, recall, f1,
                   confusion_matrix, classification_report
 model_selection : train_test_split, KFoldCV
